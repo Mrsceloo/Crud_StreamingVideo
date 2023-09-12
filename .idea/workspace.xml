@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="Permissão" />
+    <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="Criando o Controller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,29 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="Marcelo" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Pablo" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="6ca3a65d-ba50-4b83-af83-9cc21f4d2952" />
-        <option name="url" value="https://github.com/Mrsceloo/Crud_StreamingVideo.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -54,14 +36,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Ambiente/TED",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Ambiente/TED&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="TedApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.TED.TedApplication" />
+      <module name="TED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.TED.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TedApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,50 +72,34 @@
       <option name="presentableId" value="Default" />
       <updated>1694555492643</updated>
     </task>
-    <task id="LOCAL-00001" summary="Criando as Branchs">
-      <created>1694556928035</created>
+    <task id="LOCAL-00001" summary="Branch">
+      <created>1694560108501</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1694556928035</updated>
+      <updated>1694560108501</updated>
     </task>
-    <task id="LOCAL-00002" summary="Criando a Branch Pablo">
-      <created>1694557079649</created>
+    <task id="LOCAL-00002" summary="Branch">
+      <created>1694560161417</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1694557079649</updated>
+      <updated>1694560161417</updated>
     </task>
     <task id="LOCAL-00003" summary="Criando o Controller">
-      <created>1694557752824</created>
+      <created>1694560324516</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1694557752824</updated>
+      <updated>1694560324516</updated>
     </task>
-    <task id="LOCAL-00004" summary="Criando o Controller">
-      <created>1694558044465</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1694558044465</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Permissão">
-      <created>1694558838591</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1694558838591</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criando as Branchs" />
-    <MESSAGE value="Criando a Branch Pablo" />
+    <MESSAGE value="Branch" />
     <MESSAGE value="Criando o Controller" />
-    <MESSAGE value="Permissão" />
-    <option name="LAST_COMMIT_MESSAGE" value="Permissão" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando o Controller" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
