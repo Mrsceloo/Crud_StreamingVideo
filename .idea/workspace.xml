@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="Criando Branch">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="Criando Dto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -92,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694558387740</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criando Dto">
+      <created>1694559028396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694559028396</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando Branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando Branch" />
+    <MESSAGE value="Criando Dto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando Dto" />
   </component>
 </project>
