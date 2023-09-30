@@ -24,9 +24,10 @@ public class Filme implements Serializable {
 
     private String titulo;
     private String descricao;
-    private String categoria;
+    @ManyToOne
+    @JoinColumn(name = "categoria_id")
+    private Categoria categoria;
 
-    // Outros campos relevantes
 
 
 }

@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="..">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/controller/SerieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/SerieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/SerieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/service/SerieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/controller/CategoriaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/CategoriaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/CategoriaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/service/CategoriaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/controller/FilmeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/controller/FilmeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/FilmeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/FilmeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/FilmeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/FilmeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/FilmeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/service/FilmeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/service/FilmeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TED/src/main/java/com/example/TED/controller/FilmeController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,14 +70,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Ambiente/TED"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Ambiente/TED&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.TedApplication">
     <configuration name="FilmeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.TED.controller.FilmeController" />
@@ -112,7 +110,7 @@
         <item itemvalue="Application.TedApplication" />
         <item itemvalue="Application.FilmeController" />
         <item itemvalue="Application.TedApplication" />
-        <item itemvalue="Application.TedApplication" />
+        <item itemvalue="Application.FilmeController" />
         <item itemvalue="Application.TedApplication" />
       </list>
     </recent_temporary>
