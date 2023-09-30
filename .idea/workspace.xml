@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="..">
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/FilmeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_18_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_18__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_27__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_49__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_49__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_50_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_50__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_21_21_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_21_21__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_21_22_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_09_2023_20_20_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_09_2023_20_20__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_09_2023_21_03_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_09_2023_21_03__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/controller/SerieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/SerieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/SerieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/service/SerieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/controller/FilmeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/controller/FilmeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/FilmeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/FilmeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/FilmeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/FilmeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/FilmeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/service/FilmeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/service/FilmeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TED/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,13 +72,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Ambiente/TED&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Ambiente/TED"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.TedApplication">
     <configuration name="FilmeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.TED.controller.FilmeController" />
@@ -164,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694564634127</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="..">
+      <created>1696103179725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696103179725</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
