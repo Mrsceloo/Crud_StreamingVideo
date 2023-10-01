@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="..">
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/service/CategoriaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/CategoriaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/CategoriaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/FilmeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/FilmeDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/entity/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/FilmeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/repository/FilmeRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="Marcelo" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="639d4006-5cc4-4451-8b9a-1aa52f52f96d" />
+        <option name="accountId" value="6ca3a65d-ba50-4b83-af83-9cc21f4d2952" />
         <option name="url" value="https://github.com/Mrsceloo/Crud_StreamingVideo.git" />
       </UrlAndAccount>
     </option>
