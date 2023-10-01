@@ -11,7 +11,9 @@ public class Categoria implements Serializable {
     private Long id;
 
     private String nome;
-
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
     @OneToMany(mappedBy = "categoria")
     private Set<Serie> series;
 
