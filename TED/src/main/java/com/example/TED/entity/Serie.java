@@ -25,7 +25,8 @@ public class Serie implements Serializable { // Altere o nome da classe para Ser
 
     private String titulo;
     private String descricao;
-    private String categoria;
-
+    @ManyToOne
+    @JoinColumn(name = "categoria_id")
+    private Categoria categoria;
 
 }
