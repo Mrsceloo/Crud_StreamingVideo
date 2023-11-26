@@ -10,13 +10,16 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_10.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_10.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/config/SecurityConfigV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_09_2023_18_22_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_09_2023_18_22__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/dto/TokenDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TED/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TED/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/controller/UserModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/controller/UserModelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/model/RoleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/model/RoleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/repository/RoleModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/repository/RoleModelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/service/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/service/UserDetailsServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Marcelo" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,14 +77,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Ambiente/TED&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Ambiente/TED",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.TedApplication">
     <configuration name="FilmeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.TED.controller.FilmeController" />

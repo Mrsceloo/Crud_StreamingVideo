@@ -3,7 +3,8 @@ package com.example.TED.authentication.controller;
 import com.example.TED.authentication.model.UserModel;
 import com.example.TED.authentication.service.TokenService;
 import com.example.TED.authentication.service.UserDetailsServiceImpl;
-import com.example.TED.dto.TokenDto;
+import com.example.TED.dto.TokenDTO;
+import com.example.TED.dto.TokenDTO;
 import com.example.TED.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -37,7 +38,7 @@ public class UserModelController {
     }
 
     @RequestMapping(value="/login", method = RequestMethod.POST)
-    public ResponseEntity<TokenDto>  login (@RequestBody UserModel user) {
+    public ResponseEntity<TokenDTO>  login (@RequestBody UserModel user) {
 
         UsernamePasswordAuthenticationToken userToken =
                 new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword());
