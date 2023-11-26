@@ -8,16 +8,18 @@ import com.example.TED.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
-public class UserDetailsServiceImpl implements UserDetailsServiceImpl {
+public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     UserRepository userRepository;
     @Autowired
@@ -26,12 +28,14 @@ public class UserDetailsServiceImpl implements UserDetailsServiceImpl {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
-        UserModel userModel = userRepository.findByUserName(username)
+        return userRepository.findByUserName(username)
                 .orElseThrow(()-> new UsernameNotFoundException("Não foi encontrado o usúario:" + username));
 
-        return new User(userModel.getUserName(),
-                userModel.getPassword(), true, true,
-                true, true,userModel.getAuthorities());
+//                return new User(userModel.getUserName(),
+//                userModel.getPassword(), true, true,
+//                true, true,userModel.getAuthorities());
+
+
     }
 
     @Transactional
