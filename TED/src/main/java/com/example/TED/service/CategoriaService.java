@@ -40,7 +40,7 @@ public class CategoriaService {
 
             return categoriaRepository.save(categoria);
         } else {
-            // Lidar com a categoria não encontrada
+
             return null;
         }
     }

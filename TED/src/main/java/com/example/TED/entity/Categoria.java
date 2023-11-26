@@ -1,9 +1,18 @@
 package com.example.TED.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Set;
 
+
+@Builder(toBuilder = true)
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Categoria implements Serializable {
     @Id

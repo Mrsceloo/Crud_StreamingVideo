@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder(toBuilder = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class SerieDTO { // Altere o nome da classe para SerieDTO
+public class SerieDTO {
     private Long id;
     private String titulo;
     private String descricao;
