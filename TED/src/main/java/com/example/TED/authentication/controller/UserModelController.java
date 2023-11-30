@@ -1,9 +1,10 @@
 package com.example.TED.authentication.controller;
 
+
+import org.springframework.web.bind.annotation.RestController;
 import com.example.TED.authentication.model.UserModel;
 import com.example.TED.authentication.service.TokenService;
 import com.example.TED.authentication.service.UserDetailsServiceImpl;
-import com.example.TED.dto.TokenDTO;
 import com.example.TED.dto.TokenDTO;
 import com.example.TED.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +26,7 @@ public class UserModelController {
     UserDetailsServiceImpl service;
 
     @Autowired
-    private AuthenticationManager authenticationManager;
+    AuthenticationManager authenticationManager;
 
     @Autowired
     TokenService tokenService;
@@ -45,9 +46,9 @@ public class UserModelController {
 
         Authentication authentication =  this.authenticationManager.authenticate(userToken);
 
-        var usauario = (UserModel) authentication.getPrincipal();
+        var usuario = (UserModel) authentication.getPrincipal();
 
-        return ResponseEntity.ok(tokenService.gerarToken(usauario));
+        return ResponseEntity.ok(tokenService.gerarToken(usuario));
     }
 
 }
