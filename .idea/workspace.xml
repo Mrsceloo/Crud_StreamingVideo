@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="..">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_18_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_18_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TED/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/controller/UserModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/controller/UserModelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/config/SecurityConfigV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/config/SecurityConfigV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_18_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_27__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_49__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_49__Changes_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
