@@ -29,7 +29,7 @@ public class TokenService {
         secretKey = Base64.getEncoder().encodeToString(secretKey.getBytes());
         algorithm = Algorithm.HMAC256(secretKey.getBytes());
     }
-     public TokenDTO gerarToken(UserModel usuario) {
+    public TokenDTO gerarToken(UserModel usuario) {
 
         List<String> roles = usuario.getRoles().stream()
                 .map( u -> u.getRoleName().toString()).toList();
