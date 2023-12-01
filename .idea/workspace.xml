@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_18_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_27__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_49__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_09_2023_20_49__Changes_.xml" afterDir="false" />
-=======
+    <list default="true" id="ab2ce1bc-8e6a-427b-bf47-efbcfde8f040" name="Changes" comment="..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/controller/UserModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/controller/UserModelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/model/RoleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/model/RoleModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/model/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/repository/RoleModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/repository/RoleModelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/service/TokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TED/src/main/java/com/example/TED/authentication/service/UserDetailsServiceImpl.java" afterDir="false" />
->>>>>>> 9f3ed421fc11825c2e19c6292018b52823a0f398
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +71,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Ambiente/TED&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TedApplication">
     <configuration name="FilmeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.TED.controller.FilmeController" />
       <module name="TED" />

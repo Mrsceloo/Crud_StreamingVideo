@@ -17,7 +17,7 @@ import java.util.List;
 
 @Service
 @Transactional
-public class UserDetailsServiceImpl implements UserDetailsServiceImpl {
+public class UserDetailsServiceImpl implements org.springframework.security.core.userdetails.UserDetailsService {
     @Autowired
     UserRepository userRepository;
     @Autowired
