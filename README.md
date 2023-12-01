@@ -1,3 +1,6 @@
+Grupo: Marcelo Medeiros Silva
+       Marcos Pablos Araujo Santos
+
 **Projeto de Streaming de Filme/Seires com CRUD em Spring Boot**
 
 Este é um projeto de exemplo que demonstra como criar um sistema de streaming de vídeo com operações CRUD (Create, Read, Update, Delete) usando o Spring Boot. O projeto utiliza as seguintes dependências:
